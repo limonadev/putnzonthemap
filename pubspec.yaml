@@ -1,0 +1,54 @@
+name: putnzonthemap
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: 0.8.1+4
+  firebase_database: 2.0.2
+  photo_view: 0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  android: true 
+  ios: true
+  image_path: "assets_src/nz_sticker.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/levels.json
+    - assets/images/nz_flag.png
+    - assets/images/nz_flag_landscape.png
+    - assets/images/sticker.png
+    - assets/images/maps/ancient_cities.jpg
+    - assets/images/maps/cafe_china.jpg
+    - assets/images/maps/day_care.jpg
+    - assets/images/maps/el_nino.jpg
+    - assets/images/maps/garbage_patch.jpg
+    - assets/images/maps/global_payment.png
+    - assets/images/maps/google.png
+    - assets/images/maps/hague.jpg
+    - assets/images/maps/messages.png
+    - assets/images/maps/playground.jpg
+    - assets/images/maps/pyongyang_international_airport.png
+    - assets/images/maps/school_crafts.jpg
+    - assets/images/maps/snl_weekend_update.jpg
+    - assets/images/maps/wall_art.jpg
+    - assets/images/maps/who.png
+

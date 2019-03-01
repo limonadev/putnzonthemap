@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "289410726556",
+    "firebase_url": "https://putnzonthemap-2f5ad.firebaseio.com",
+    "project_id": "putnzonthemap-2f5ad",
+    "storage_bucket": "putnzonthemap-2f5ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289410726556:android:53b6980d1ce5dec3",
+        "android_client_info": {
+          "package_name": "com.jpeiffer.putnzonthemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289410726556-6hv6jbc9f8d9li78lgqsu8clgq8lilqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCga3jJH9acl9PYV4amyWxrbN-B3B5YILo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

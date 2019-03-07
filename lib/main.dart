@@ -6,8 +6,8 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 
-void main() {
-  FirebaseAuth.fromApp(FirebaseApp.instance).signInAnonymously();
+void main() async {
+  await FirebaseAuth.fromApp(FirebaseApp.instance).signInAnonymously();
   runApp(App());
 }
 

@@ -32,7 +32,6 @@ flutter_icons:
 flutter:
   uses-material-design: true
   assets:
-    - assets/levels.json
     - assets/images/nz_flag.png
     - assets/images/nz_flag_landscape.png
     - assets/images/sticker.png

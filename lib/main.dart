@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await FirebaseAuth.fromApp(FirebaseApp.instance).signInAnonymously();
   runApp(App());
 }
